@@ -1,12 +1,14 @@
 import os 
 import shutil 
  
-FILE_TYPES = { 
-    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp"], 
-    "Videos": [".mp4", ".mov", ".avi", ".mkv"], 
-    "Documents": [".pdf", ".docx", ".txt", ".xlsx", ".pptx"], 
-    "Audio": [".mp3", ".wav", ".aac"], 
-} 
+FILE_TYPES = {
+    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp"],
+    "Videos": [".mp4", ".mov", ".avi", ".mkv"],
+    "Documents": [".pdf", ".docx", ".txt", ".xlsx", ".pptx"],
+    "Audio": [".mp3", ".wav", ".aac"],
+    "Compressed": [".zip", ".rar", ".7z"],
+    "Programming": [".py", ".java", ".html", ".css", ".js"]
+}
  
 def organize_files(folder_path): 
     if not os.path.exists(folder_path): 
