@@ -2,9 +2,9 @@ import os
 import shutil 
  
 FILE_TYPES = {
-    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp"],
+    "Pictures": [".jpg", ".jpeg", ".png", ".gif", ".bmp"],
+    "Files": [".pdf", ".docx", ".txt", ".xlsx", ".pptx"],
     "Videos": [".mp4", ".mov", ".avi", ".mkv"],
-    "Documents": [".pdf", ".docx", ".txt", ".xlsx", ".pptx"],
     "Audio": [".mp3", ".wav", ".aac"],
     "Compressed": [".zip", ".rar", ".7z"],
     "Programming": [".py", ".java", ".html", ".css", ".js"]
